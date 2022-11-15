@@ -7,7 +7,7 @@ function H = SPIEJMI_constructLMhessian_2d(Tpoints,alpha)
     H_base = zeros(num_LM+3);
     H_base0 = H_base;
     
-    % build the lower triangular part first
+    % build the lower triangular part of the Hessian first
     for col = 1:num_LM+3
         for row = 1:col
           % elements of the same column j have a common multiplier center:
