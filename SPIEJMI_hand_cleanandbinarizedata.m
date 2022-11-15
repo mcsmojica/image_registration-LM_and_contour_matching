@@ -1,4 +1,4 @@
-% removes noise in hands data and smooths the pixelated edges so that LM
+% removes noise from hands data and smoothes the pixelated edges so that LM
 % detection can be done on binary images
 dataR = double(imread('hands-R.jpg'));
 dataT = double(imread('hands-T.jpg'));
